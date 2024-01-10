@@ -1360,6 +1360,10 @@ img {
     width: 320px;
   }
 
+  .baby__img{
+    width: 400px;
+  }
+
   .paper__content{
     align-items: center;
   }
