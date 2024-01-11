@@ -303,7 +303,11 @@ img {
 }
 
 .home__blob-img{
-  width: 210px;
+  width: 350px;
+  border-radius: .5rem;
+  justify-self: center;
+  align-self: center;
+
 }
 
 .home__data{
