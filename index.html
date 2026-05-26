@@ -478,17 +478,39 @@
                 
                 <div class="paper__container container swiper">
                     <div class="swiper-wrapper">
+
                         <!--==================== PAPER/Project 1 ====================-->
+                        <div class="paper__content grid swiper-slide">
+                            <h3 class="paper__title" style="text-align: center;">CraneLift Transfer System - FPGA Controlled Electromechanical Ball Transport Machine</h3>
+                            <img src="assets/img/Cranelift.jpg" alt="CraneLift Transfer System" class="paper__img">
+                            
+                            <div class="paper__dat">
+                                
+                                <p class="paper__description">
+                                    The CraneLift Transfer System is an autonomous electromechanical machine built as part of the CMPE6001 Crazy Machine Project at Curtin University. 
+                                    The machine transports a 34 g steel ball through five sequential stages inside a 40x40x40 cm aluminium frame, 
+                                    completing the journey in approximately 50 seconds. The ball's journey begins with an FSR pressure sensor triggering a stepper-driven elevator 
+                                    descent to the floor. A servo gate releases the ball onto a gravity ramp, which guides it to the pickup point beneath the gantry crane. 
+                                    The crane — the centrepiece of the machine — uses a 12V electromagnet on a dual-stepper trolley: one stepper lifts the ball vertically, 
+                                    another traverses the beam horizontally. At the far end the electromagnet de-energises, dropping the ball onto a deposit shelf where a 
+                                    push-pull solenoid ejects it through the exit ramp.
+                                    
+                                </p>
+                                <p class="paper__description">                                
+                                    All control logic runs on an Intel DE10-Lite FPGA as a nine-state VHDL finite state machine with no microcontroller involvement. 
+                                    As Firmware Lead, I designed the full FPGA architecture, wrote all VHDL modules, and simulated transitions in ModelSim. 
+                                    All five end-to-end test runs were successful, with an average travel time of 50 seconds within specification.
+                                </p>
+
+                            </div>
+                        </div>  
+
+                        <!--==================== PAPER/Project 2 ====================-->
                         <div class="paper__content grid swiper-slide">
                             <h3 class="paper__title">Baby Monitoring System for Sleep Apnea Detection</h3>
                             <img src="assets/img/sleep.png" alt="Baby Monitoring System" class="baby__img">
                             
                             <div class="paper__dat">
-                                <!-- <h3 class="paper__title">Baby Monitoring System for Sleep Apnea Detection</h3> -->
-                                <!-- <span class="button button--flex button--small button--link projects__button">
-                                    View More
-                                    <i class="uil uil-arrow-right button__icon"></i>
-                                </span> -->
                                 
                                 <p class="paper__description">
                                     A baby monitoring system to detect sleep apnea in babies. 
@@ -508,10 +530,11 @@
                                     The Parent Unit monitors data received from the bed unit and baby unit, and make decisions and alarm parants accordingly.
                                     The data transmission of the whole system uses bluetooth system. 
                                 </p>
+
                             </div>
                         </div>  
 
-                        <!--==================== PAPER/Project 2 ====================-->
+                        <!--==================== PAPER/Project 3 ====================-->
                         <div class="paper__content grid swiper-slide">
                             <h3 class="paper__title">A Self Balancing Car</h3>
                             <img src="assets/img/Self_balance.jpg" alt="A Self Balancing Car" class="paper__img">
@@ -542,7 +565,7 @@
                             </div>
                         </div>    
 
-                        <!--==================== PAPER/Project 3 ====================-->
+                        <!--==================== PAPER/Project 4 ====================-->
                         <div class="paper__content grid swiper-slide">
                             <h3 class="paper__title">Wireless Edge-Controlled Vehicle-to-Grid Solution</h3>
                             <img src="assets/img/VPP-V2G.png" alt="Wireless Edge-Controlled Vehicle-to-Grid Solution" class="baby__img">
@@ -569,7 +592,7 @@
                             </div>
                         </div>  
 
-                        <!--==================== PAPER/Project 4 ====================-->
+                        <!--==================== PAPER/Project 5 ====================-->
                         <div class="paper__content grid swiper-slide">
                             <h3 class="paper__title">Hydroponics System</h3>
                             <img src="assets/img/Hydro.jpg" alt="Hydroponics System" class="hydro__img">
@@ -599,7 +622,7 @@
                             </div>
                         </div>                      
 
-                        <!--==================== PAPER/Project 5 ====================-->
+                        <!--==================== PAPER/Project 6 ====================-->
                         <div class="paper__content grid swiper-slide">
                             <h3 class="paper__title">Human Machine Interaction(HMI) device</h3>
                             <img src="assets/img/PAT.jpg" alt="SOLclock HMI" class="paper__img">
@@ -621,7 +644,7 @@
                             </div>
                         </div>    
 
-                        <!--==================== PAPER/Project 6 ====================-->
+                        <!--==================== PAPER/Project 7 ====================-->
                         <div class="paper__content grid swiper-slide">
                             <h3 class="paper__title">Quadcopter for rescue operations</h3>
                             <img src="assets/img/Drone.jpg" alt="CNC plottter" class="paper__img">
@@ -650,7 +673,7 @@
                             </div>
                         </div>
                         
-                        <!--==================== PAPER/Project 7 ====================-->
+                        <!--==================== PAPER/Project 8 ====================-->
                         <div class="paper__content grid swiper-slide">
                             <h3 class="paper__title">DC motor model</h3>
                             <img src="assets/img/motor.jpg" alt="Small break loca accident facility" class="baby__img">
